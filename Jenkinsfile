@@ -5,14 +5,14 @@ pipeline{
     
     stages{
         
-        stage('Build Code')
+        stage('Smoke testing')
         {
             steps{
                 sh 'echo "Build Code"'
             }
         }
         
-        stage('Release Code'){
+        stage('IT testing Code'){
             steps{
     
                    
